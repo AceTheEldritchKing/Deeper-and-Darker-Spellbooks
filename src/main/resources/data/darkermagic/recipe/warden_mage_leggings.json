@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "deeperdarker:reinforced_echo_shard"
+  },
+  "base": {
+    "item": "irons_spellbooks:netherite_mage_leggings"
+  },
+  "result": {
+    "count": 1,
+    "id": "darkermagic:warden_mage_leggings"
+  },
+  "template": {
+    "item": "deeperdarker:warden_upgrade_smithing_template"
+  }
+}

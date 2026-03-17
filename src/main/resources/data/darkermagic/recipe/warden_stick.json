@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "catergory": "misc",
+  "key": {
+    "B": {
+      "item": "deeperdarker:sculk_bone"
+    },
+    "D": {
+      "item": "deeperdarker:soul_dust"
+    }
+  },
+  "pattern": [
+    "DB",
+    "BD"
+  ],
+
+  "result": {
+    "count": 1,
+    "id": "darkermagic:warden_stick"
+  }
+}

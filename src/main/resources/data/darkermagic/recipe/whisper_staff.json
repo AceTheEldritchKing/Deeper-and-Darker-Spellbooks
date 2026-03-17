@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "catergory": "misc",
+  "key": {
+    "P": {
+      "item": "irons_spellbooks:weapon_parts"
+    },
+    "W": {
+      "item": "darkermagic:warden_stick"
+    },
+    "C": {
+      "item": "deeperdarker:soul_crystal"
+    },
+    "S": {
+      "item": "deeperdarker:sonorous_staff"
+    }
+  },
+  "pattern": [
+    " CS",
+    " WC",
+    "P  "
+  ],
+
+  "result": {
+    "count": 1,
+    "id": "darkermagic:whisper_staff"
+  }
+}

@@ -19,6 +19,22 @@ group = mod_group_id
 
 repositories {
     // Add here additional repositories if required by some of the dependencies below.
+    maven {
+        name = "Iron's Maven - Release"
+        url = "https://code.redspace.io/releases"
+    }
+
+    maven { url = "https://maven.enginehub.org/repo/" }
+    maven {
+        url = "https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/"
+        content {
+            includeGroup("software.bernie.geckolib")
+        }
+    }
+    maven { url = "https://maven.theillusivec4.top" }
+    maven { url = "https://cursemaven.com" }
+    maven { url = "https://maven.blamejared.com" }
+    maven { url = "https://maven.kosmx.dev/" }
 }
 
 base {
@@ -129,6 +145,24 @@ dependencies {
 
     // Example project dependency using a sister or child project:
     // implementation project(":myproject")
+
+    // Irons Spells N Spellbooks
+    implementation "curse.maven:irons-spells-n-spellbooks-855414:7402503"
+
+    // Deeper and Darker
+    implementation "curse.maven:deeperdarker-659011:6463247"
+
+    // GeckoLib
+    implementation "software.bernie.geckolib:geckolib-neoforge-${minecraft_version}:${geckolib_version}"
+
+    // Player Animator
+    //compileOnly "dev.kosmx.player-anim:player-animation-lib-forge:${player_animator_version}"
+    implementation "dev.kosmx.player-anim:player-animation-lib-forge:${player_animator_version}"
+
+    // Curios
+    implementation "top.theillusivec4.curios:curios-neoforge:${curios_version}+${minecraft_version}"
+
+    implementation "curse.maven:jei-238222:7420587"
 
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
